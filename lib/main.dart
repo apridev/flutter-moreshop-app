@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:moreshop_app/home/main-page.dart';
 import 'package:moreshop_app/pages/login-page.dart';
 import 'package:moreshop_app/pages/onboarding.dart';
 import 'package:moreshop_app/pages/recovery-password.dart';
@@ -33,6 +34,7 @@ class MyApp extends StatelessWidget {
          '/recovery-password' :(context) => RecoveryPassword(),
          '/syarat-kebijakan' :(context) => SyaratKebijakan(),
          '/privasi-kami' :(context) => PrivasiKami(),
+         '/main-page' :(context) => MainPage(),
        },
       ),
     );
