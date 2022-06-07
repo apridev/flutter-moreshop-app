@@ -6,6 +6,7 @@ import 'package:moreshop_app/pages/onboarding.dart';
 import 'package:moreshop_app/pages/recovery-password.dart';
 import 'package:moreshop_app/pages/register-page.dart';
 import 'package:moreshop_app/providers/hidden-password.dart';
+import 'package:moreshop_app/providers/wishlist-page.dart';
 import 'package:moreshop_app/views/privasi-kami.dart';
 import 'package:moreshop_app/views/syarat-kebijakan.dart';
 import 'package:provider/provider.dart';
@@ -24,7 +25,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MultiProvider(
       providers: [
-        ChangeNotifierProvider(create: (context) => HiddenPassword(),)
+        ChangeNotifierProvider(create: (context) => HiddenPassword(),),
+        ChangeNotifierProvider(create: (context) => WishlistProduct(),)
       ],
       child: MaterialApp(
        routes: {
