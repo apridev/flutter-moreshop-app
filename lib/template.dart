@@ -9,6 +9,7 @@ Color blackTextColor = Color(0xff383838);
 Color backgroundColor = Color(0xffffffff);
 Color backgroundColor2 = Color(0xffD9D9D9);
 Color backgroundColor3 = Color(0xffB0B0B0);
+Color backgroundColor4 = Color(0xffF0F0F0);
 Color searchColor = Color(0xffB2B1B5);
 Color categoryColor = Color(0xffAAAAAA);
 
