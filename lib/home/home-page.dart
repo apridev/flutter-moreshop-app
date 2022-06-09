@@ -474,7 +474,9 @@ class _HomePageState extends State<HomePage> {
                                               borderRadius:
                                                   BorderRadius.circular(8)),
                                           child: TextButton(
-                                              onPressed: () {},
+                                              onPressed: () {
+                                                Navigator.pushNamed(context, '/product-page');
+                                              },
                                               child: Column(
                                                 mainAxisAlignment:
                                                     MainAxisAlignment.center,
