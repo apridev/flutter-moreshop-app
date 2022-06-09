@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:moreshop_app/home/main-page.dart';
 import 'package:moreshop_app/pages/login-page.dart';
 import 'package:moreshop_app/pages/onboarding.dart';
+import 'package:moreshop_app/pages/product-page.dart';
 import 'package:moreshop_app/pages/recovery-password.dart';
 import 'package:moreshop_app/pages/register-page.dart';
 import 'package:moreshop_app/providers/hidden-password.dart';
@@ -37,6 +38,7 @@ class MyApp extends StatelessWidget {
          '/syarat-kebijakan' :(context) => SyaratKebijakan(),
          '/privasi-kami' :(context) => PrivasiKami(),
          '/main-page' :(context) => MainPage(),
+         '/product-page' :(context) => ProductPage(),
        },
       ),
     );
