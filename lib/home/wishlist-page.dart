@@ -56,6 +56,15 @@ class WishlistPage extends StatelessWidget {
                   gambar: 'assets/img/product2.png', 
                   rating: '(1245)'
                 ),
+                WishlistTile(
+                  namaProduk: 'Kemeja Flannel Uniqlo', 
+                  harga: 'IDR499000 ', 
+                  gambar: 'assets/img/product4.png', 
+                  rating: '(1245)'
+                ),
+                SizedBox(
+                  height: defaultMargin,
+                ),
               ],
             ),
           ],
